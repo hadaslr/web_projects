@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SPEAKERS</title>
+    <link href="{{ url_for('static',filename='generic.css') }}" rel="stylesheet">
+</head>
+<body>
+
+{% include 'navbar.html' %}
+
+<div style="position: relative; height: 100vh; width: 100vw;">
+{% include 'page1.html' %}
+</div>
+
+<div style="position: relative; height: 100vh; width: 100vw;">
+{% include 'page2.html' %}
+</div>
+
+<div style="position: relative; height: 100vh; width: 100vw;">
+{% include 'page3.html' %}
+</div>
+
+<div class="trans">
+    <img src="/static/trans.png" alt="big" style="height: 450px; width:70vh">
+</div>
+
+<div style="position: relative; height: 100vh; width: 100vw; background: #1e1305">
+{% include 'page4.html' %}
+</div>
+
+<div class="radio">
+    <img src="/static/radio.png" alt="big" style="height: 450px; width:70vh">
+</div>
+
+<div style="position: relative; height: 100vh; width: 100vw; background: #1e1305">
+{% include 'page5.html' %}
+</div>
+
+</body>
+</html>
