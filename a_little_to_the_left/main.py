@@ -4,22 +4,22 @@ app = Flask(__name__)
 
 
 @app.route("/")
-def banana():
+def main():
     return render_template("main_menu.html")
 
 
 @app.route("/levels")
-def banana1():
+def levels():
     return render_template("levels.html")
 
 
 @app.route("/dlc")
-def banana2():
+def dlc():
     return render_template("dlc.html")
 
 
 @app.route("/settings")
-def banana3():
+def settings():
     return render_template("settings.html")
 
 
